@@ -6049,7 +6049,7 @@ figcaption {
 }
 
 .nav-line.red {
-  background-color: #ff0000b3;
+  background-color: #B21B19b3;
 }
 
 .social-group {
@@ -11153,4 +11153,12 @@ figcaption {
   #w-node-f885c26b-9451-3d10-9fe5-1114f4b6afc5-92110b3e, #w-node-f885c26b-9451-3d10-9fe5-1114f4b6afcb-92110b3e {
     grid-column-end: 3;
   }
+}
+
+:root {
+  --red: #B21B19 !important;
+  --black: #111111 !important;
+  --white: #FFFFFF !important;
+  --light-grey: #E6E6E6 !important;
+  --dark-grey: #535353 !important;
 }
