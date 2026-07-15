@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html data-wf-domain="steakfuel.webflow.io" data-wf-page="695833524d7f967fc9cdfd59"
+<!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Mon Jan 19 2026 19:10:07 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="steakfuel.webflow.io" data-wf-page="695833524d7f967fc9cdfde6"
   data-wf-site="695833524d7f967fc9cdfd5a" lang="en">
 
 <head>
   <meta charset="utf-8">
   <link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous">
-  <title>FEED THE IRON. | Air-Dried Beef Biltong | 67g Protein | STEAK FUEL</title>
-  <meta content="FEED THE IRON. is India's highest-protein meat snack — 67g of protein per 100g, zero preservatives, air-cured below 35°C to preserve Creatine and Taurine. Order online. Kerala-made." name="description">
-  <meta content="FEED THE IRON. | Air-Dried Beef Biltong | 67g Protein" property="og:title">
-  <meta content="FEED THE IRON. is India's highest-protein meat snack — 67g of protein per 100g, zero preservatives, air-cured below 35°C to preserve Creatine and Taurine. Order online. Kerala-made." property="og:description">
+  <title>Contact & Wholesale Inquiry | STEAK FUEL</title>
+  <meta content="STEAK FUEL is India's highest-protein meat snack � 67g of protein per 100g, zero preservatives, air-cured below 35�C to preserve Creatine and Taurine. Order online. Kerala-made." name="description">
+  <meta content="STEAK FUEL - Launch List" property="og:title">
+  <meta content="STEAK FUEL is India's highest-protein meat snack � 67g of protein per 100g, zero preservatives, air-cured below 35�C to preserve Creatine and Taurine. Order online. Kerala-made." property="og:description">
   <meta content="https://cdn.prod.website-files.com/695833524d7f967fc9cdfd5a/695ed18d6959d7e149cd9383_Copy%20of%20Untitled%20Design.avif" property="og:image">
-  <meta content="FEED THE IRON. | Air-Dried Beef Biltong | 67g Protein" name="twitter:title">
-  <meta content="FEED THE IRON. is India's highest-protein meat snack — 67g of protein per 100g, zero preservatives, air-cured below 35°C to preserve Creatine and Taurine. Order online. Kerala-made." name="twitter:description">
+  <meta content="STEAK FUEL - Launch List" name="twitter:title">
+  <meta content="STEAK FUEL is India's highest-protein meat snack � 67g of protein per 100g, zero preservatives, air-cured below 35�C to preserve Creatine and Taurine. Order online. Kerala-made." name="twitter:description">
   <meta content="https://cdn.prod.website-files.com/695833524d7f967fc9cdfd5a/695ed18d6959d7e149cd9383_Copy%20of%20Untitled%20Design.avif" name="twitter:image">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
@@ -29,18 +30,81 @@
   <link href="695833524d7f967fc9cdfd5a/69594c8f0402823484dd9428_asdef.svg" rel="apple-touch-icon">
   <script
     type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = { "currencyCode": "USD", "symbol": "$", "decimal": ".", "fractionDigits": 2, "group": ",", "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}", "hideDecimalForWholeNumbers": false };</script>
-  <style>
+<style>
     @media (max-width: 767px) {
       .footer-bottom {
         text-align: center;
         justify-content: center;
       }
     }
+
+    /* ─── Launch-List Page Palette ───────────────────────────────────────────
+       Red  : #b21b19
+       Grey : #535353
+       Rest : #000000 / #ffffff
+    ───────────────────────────────────────────────────────────────────────── */
+
+    /* Form inputs */
+    .section.red-text .form-input-main.alternate {
+      background-color: #ffffff;
+      border: 1.5px solid #535353;
+      color: #000000;
+      box-shadow: none;
+      border-radius: 8px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .section.red-text .form-input-main.alternate:focus {
+      border-color: #b21b19;
+      box-shadow: 0 0 0 3px rgba(178, 27, 25, 0.12);
+      outline: none;
+    }
+    .section.red-text .form-input-main.alternate::placeholder {
+      color: #535353;
+    }
+
+    /* CTA button — red is used here intentionally as the key action element */
+    .section.red-text .contact-submit-button {
+      background-color: #b21b19;
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(178, 27, 25, 0.22);
+      transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .section.red-text .contact-submit-button:hover {
+      background-color: #8e1614;
+      box-shadow: 0 6px 24px rgba(178, 27, 25, 0.32);
+      transform: translateY(-2px);
+    }
+
+    /* Success message */
+    .section.red-text .message-success {
+      background-color: #ffffff;
+      color: #000000;
+      border: 1.5px solid #535353;
+      padding: 20px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    /* Form card container */
+    .section.red-text .contact-form-container {
+      background: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 40px 32px;
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.10);
+      border: 1px solid rgba(83, 83, 83, 0.18);
+    }
   </style>
 </head>
 
 <body>
-  <nav class="nav-wrapper">
+ <nav class="nav-wrapper">
     <div class="nav-contain">
       <div id="w-node-b80fa347-d4b3-0ab6-00b4-80ff1c67c7a0-1c67c79e" class="nav-block left">
         <div class="nav-dropdown-products"><a href="#" class="blob-button header flavors w-inline-block">
@@ -518,758 +582,110 @@
       </div>
     </div>
   </nav>
-  <div style="opacity:0" class="page-wrapper">
+  <div class="page-wrapper">
     <section class="section red-text">
       <div class="hero-background-image-wrapper"></div>
       <div class="w-layout-blockcontainer container home-hero w-container">
         <div class="image-wrapper chip-04"><img loading="lazy"
             src="images/generated/jerkey_piece_hero_1782545870282.png"
-            alt="FEED THE IRON. Air-Cured Biltong close-up showing texture and premium beef."
+            alt="STEAK FUEL Air-Cured Biltong close-up showing texture and premium beef."
             class="content-image _100"></div>
         <div class="image-wrapper chip-03"><img loading="lazy"
             src="images/generated/jerkey_piece_02_1782545982960.png"
-            alt="Single FEED THE IRON. Air-Cured Biltong piece photographed on a clean neutral background." class="content-image _100">
+            alt="Single STEAK FUEL Air-Cured Biltong piece photographed on a clean neutral background." class="content-image _100">
         </div>
         <div class="image-wrapper chip-02"><img loading="lazy"
             src="images/generated/jerkey_piece_hero_1782545870282.png"
-            alt="FEED THE IRON. Air-Cured Biltong close-up showing texture and premium beef."
+            alt="STEAK FUEL Air-Cured Biltong close-up showing texture and premium beef."
             class="content-image _100"></div>
         <div class="image-wrapper chip-01"><img loading="lazy"
             src="images/generated/jerkey_piece_hero_1782545870282.png"
-            alt="Premium FEED THE IRON. Air-Cured Biltong piece highlighting texture." class="content-image _100"></div>
+            alt="Premium STEAK FUEL Air-Cured Biltong piece highlighting texture." class="content-image _100"></div>
         <div class="content-wrapper home-hero">
           <div class="review-stars-holder">
             <div href="#" duration="0.8" fade-up="" page-load="" class="review-5-stars">
               <div class="review-stars-inner"><img loading="lazy"
                   src="695833524d7f967fc9cdfd5a/695953c52dc71dad38e5b08c_5-stars.svg"
-                  alt="Five star rating graphic representing customer reviews for FEED THE IRON. Air-Cured Biltong."
+                  alt="Five star rating graphic representing customer reviews for STEAK FUEL Air-Cured Biltong."
                   class="_5-stars-image product-image">
-                <!-- CLIENT CONTENT REQUIRED -->
                 <p class="text-block no-margin">67g Protein · Zero Preservatives</p>
               </div>
             </div>
           </div>
-          
-          <h1 class="h1-heading home-hero _02">FEED THE IRON.</h1>
-          <div class="button-container-03"><a href="shop-all.html" class="blob-button w-inline-block">
-              <div class="blob-button-inner">
-                <div class="blob-button-blobs">
-                  <div class="blob-button-blob _01"></div>
-                  <div class="blob-button-blob _02"></div>
-                  <div class="blob-button-blob _03"></div>
-                  <div class="blob-button-blob _04"></div>
+          <div class="contact-form-container" style="max-width: 480px; margin: 0 auto;">
+            <p class="paragraph no-margin" style="text-align: center; color: #535353; font-weight: 600; font-size: 16px; margin-bottom: 28px; line-height: 1.5;">Be the first to know when STEAK FUEL drops. Sign up now — zero spam, just pure protein news.</p>
+            <div class="contact-page-form w-form">
+              <form id="launch-list-form" name="launch-list-form" class="contact-form-main" onsubmit="return handleLaunchSubmit(event)">
+                <input
+                  class="form-input-main alternate w-input"
+                  maxlength="64" name="Full-Name" placeholder="Full Name *" type="text"
+                  id="Full-Name" required=""
+                  oninput="this.value = this.value.replace(/[^a-zA-Z\s]/g, '')">
+                <div id="contact-method-group" style="position:relative;">
+                  <input
+                    class="form-input-main alternate w-input"
+                    maxlength="10" name="Phone" placeholder="Mobile Number *" type="tel"
+                    id="Mobile-Or-Email" required="" inputmode="numeric" pattern="[0-9]{10}"
+                    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0,10)">
+                  <div id="contact-error" style="display:none; color:#b21b19; font-size:13px; margin-top:4px; padding-left:4px;">Please enter a valid 10-digit mobile number.</div>
                 </div>
+                <input
+                  class="form-input-main alternate w-input"
+                  maxlength="64" name="Place" placeholder="Place / City *" type="text"
+                  id="Place" required=""
+                  oninput="this.value = this.value.replace(/[^a-zA-Z\s]/g, '')">
+                <input type="submit" data-wait="Please wait..." class="contact-submit-button w-button" value="Join the List" style="width:100%; margin-top: 8px;">
+              </form>
+              <div id="launch-success" class="message-success w-form-done" style="display:none;">
+                <div>Thank you! Your submission has been received!</div>
               </div>
-              <div class="goo-svg-for-button w-embed"><svg xmlns="http://www.w3.org/2000/svg"
-                  style="position:absolute;width:0;height:0">
-                  <defs>
-                    <filter id="goo">
-                      <fegaussianblur in="SourceGraphic" stddeviation="12" result="blur"></fegaussianblur>
-                      <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 28 -10" result="goo">
-                      </fecolormatrix>
-                      <fecomposite in="SourceGraphic" in2="goo" operator="atop"></fecomposite>
-                    </filter>
-                  </defs>
-                </svg></div>
-              <div class="button-text-01">SHOP FEED THE IRON.</div><img loading="lazy"
-                src="695833524d7f967fc9cdfd5a/6959b12f79f76da53d456fb9_right-arrow.svg" alt=""
-                class="right-arrow-button">
-            </a></div>
-        </div>
-      </div>
-      <div class="wave-lottie-animation below" data-w-id="f8ea8f13-6bcf-096e-bd22-25bc099d447d"
-        data-animation-type="lottie"
-        data-src="https://cdn.prod.website-files.com/695833524d7f967fc9cdfd5a/695c35d26044f6e4740b07b7_red-wave-flush-bottom.lottie.json"
-        data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg"
-        data-default-duration="0" data-duration="0" data-loading="eager"></div>
-    </section>
-    <section class="section red overflow-hidden">
-      <div class="w-layout-blockcontainer container home-intro w-container">
-        <div class="content-wrapper home-intro">
-          <div class="w-layout-grid heading-grid center-two-rows tablet-flex-center">
-            <div sa="1" id="w-node-_9993b91e-2411-bed2-1288-66327f92d954-c9cdfd59" class="grid-block">
-              <div class="text-box">
-                <!-- CLIENT CONTENT REQUIRED -->
-                <h2 words-slide-up="" text-split="" class="h2-heading no-margin large">THE SCIENCE OF NOT COOKING IT
-                </h2>
-              </div>
-            </div>
-            <div sa="1" id="w-node-_1a583d84-af39-fd8a-9ded-97bb8489c36c-c9cdfd59" class="grid-block">
-              <div duration="0.6" slide-blur-fade-down="" class="text-box">
-                <p class="paragraph no-margin">FEED THE IRON. Air-Cured Biltong is premium dried beef, made for high protein and real taste—crafted without sugar, artificial preservatives, or unnecessary extras. High in protein and low in carbs, it's designed for satisfying snacking that fuels your active lifestyle.</p>
+              <div id="launch-error" class="message-error w-form-fail" style="display:none;">
+                <div>Oops! Something went wrong while submitting the form.</div>
               </div>
             </div>
           </div>
         </div>
-        <div delay="0.2" scale-up-small="" duration="0.6" class="image-wrapper gif-intro"><img
-            src="images/generated/home-highlights.png"
-            loading="lazy" alt="FEED THE IRON. benefits gif detailing benefits." class="intro-gif-image _01">
-            <img
-            src="images/generated/home-highlights-vert.png"
-            loading="lazy" alt="Graphic highlighting snack attributes such as gluten free and no sugar."
-            class="intro-gif-image _02"></div>
-      </div>
-      <div class="content-wrapper hand-with-bag">
-        <div class="content-block hand-with-bag _01"><img
-            src="images/generated/jerkey_hand_holding_1782545924976.png" loading="lazy"
-            sizes="(max-width: 1527px) 100vw, 1527px"
-            srcset="images/generated/jerkey_hand_holding_1782545924976.png 500w, images/generated/jerkey_hand_holding_1782545924976.png 800w, images/generated/jerkey_hand_holding_1782545924976.png 1527w"
-            alt="Hand holding a single FEED THE IRON. Air-Cured Biltong piece close-up." class="content-image _100-width"></div>
-        <div class="content-block hand-with-bag _02"><img
-            src="images/generated/jerkey_hand_bag_1782545942356.png" loading="lazy"
-            sizes="(max-width: 1527px) 100vw, 1527px"
-            srcset="images/generated/jerkey_hand_bag_1782545942356.png 500w, images/generated/jerkey_hand_bag_1782545942356.png 1527w"
-            alt="Hand holding a bag of FEED THE IRON. Air-Cured Biltong against a clean background." class="content-image hand-with-bag">
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="wave-lottie-animation below flipped" data-w-id="3b633134-60e7-334d-d484-fa415175a4f7"
-        data-animation-type="lottie"
-        data-src="https://cdn.prod.website-files.com/695833524d7f967fc9cdfd5a/695c35d26044f6e4740b07b7_red-wave-flush-bottom.lottie.json"
-        data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg"
-        data-default-duration="0" data-duration="0" data-loading="eager"></div>
-      <div class="w-layout-blockcontainer container product-wheel-holder w-container">
-        <div sa-delay="0.2" sa-group="" sa-t="scroll" sa-s="0.22" sa-start="top 60%"
-          class="content-wrapper wheel-product">
-          <div delay="0.2" scale-up="" duration="0.5" class="top-eyebrow flavors">
-            <!-- CLIENT CONTENT REQUIRED -->
-            <div class="insta-handle-text">6 PERFORMANCE STACKS!</div>
-          </div>
-          <div duration="0.6" slide-blur-fade-down="" class="heading-image-wrapper lineup"><img
-              src="695833524d7f967fc9cdfd5a/69597f2f9bb5bf97628e8bb4_wsacd.svg" loading="lazy"
-              alt="Text graphic reading “The Lineup” introducing FEED THE IRON. Air-Cured Biltong." class="content-image _100-full">
-          </div>
-          <div class="button-container-03"><a href="shop-all.html" class="blob-button w-inline-block">
-              <div class="blob-button-inner">
-                <div class="blob-button-blobs">
-                  <div class="blob-button-blob _01"></div>
-                  <div class="blob-button-blob _02"></div>
-                  <div class="blob-button-blob _03"></div>
-                  <div class="blob-button-blob _04"></div>
-                </div>
-              </div>
-              <div class="goo-svg-for-button w-embed"><svg xmlns="http://www.w3.org/2000/svg"
-                  style="position:absolute;width:0;height:0">
-                  <defs>
-                    <filter id="goo">
-                      <fegaussianblur in="SourceGraphic" stddeviation="12" result="blur"></fegaussianblur>
-                      <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 28 -10" result="goo">
-                      </fecolormatrix>
-                      <fecomposite in="SourceGraphic" in2="goo" operator="atop"></fecomposite>
-                    </filter>
-                  </defs>
-                </svg></div>
-              <div class="button-text-01">SHOP FEED THE IRON.</div><img loading="lazy"
-                src="695833524d7f967fc9cdfd5a/6959b12f79f76da53d456fb9_right-arrow.svg" alt=""
-                class="right-arrow-button">
-            </a></div>
-        </div>
-        <div class="product-slider">
-          <div class="product-prev"><img loading="lazy"
-              src="695833524d7f967fc9cdfd5a/6959b1e794c29fa0938db36e_arrow-left%20%282%29.svg" alt=""
-              class="slide-arrow"></div>
-          <div class="product-next"><img loading="lazy"
-              src="695833524d7f967fc9cdfd5a/695833524d7f967fc9cdfdab_arrow-right%20%282%29.svg" alt=""
-              class="slide-arrow"></div>
-          <div class="product-wheel-viewport">
-            <div class="product-wheel">
-              <div class="product-slide">
-                <div class="product-slide-inner _01">
-                  <div class="product-content-hold">
-                    <div class="product-image-wrapper-main product-image"><img loading="lazy"
-                        src="images/generated/jerkey_bag_classic_1782545851540.png"
-                        alt="FEED THE IRON. Classic Air-Cured Biltong bag with bold packaging."
-                        class="content-image _100-full product-image"></div>
-                  </div>
-                  <div class="product-bottom-info-box">
-                    <h3 class="h3-heading-main product-name">Beef Biltong Classic</h3><a href="product/classic-cheese.html"
-                      class="product-slide-button-container classic w-inline-block">
-                      <div class="product-slide-button-wrapper _01">
-                        <div>Order Now</div>
-                        <div class="button-plus w-embed"><svg id="Layer_2" viewbox="0 0 99.43 99.43"
-                            xmlns="http://www.w3.org/2000/svg" data-name="Layer 2">
-                            <g id="Layer_1-2" width="inherit" height="inherit" fill="currentColor" data-name="Layer 1">
-                              <path
-                                d="m89.49 39.77h-29.83v-29.83c0-5.49-4.45-9.94-9.94-9.94-5.49 0-9.94 4.45-9.94 9.94v29.83h-29.84c-5.49 0-9.94 4.45-9.94 9.94s4.45 9.94 9.94 9.94h29.83v29.83c0 5.49 4.45 9.94 9.94 9.94 5.49 0 9.94-4.45 9.94-9.94v-29.83h29.83c5.49 0 9.94-4.45 9.94-9.94s-4.45-9.94-9.94-9.94z">
-                              </path>
-                            </g>
-                          </svg></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="product-slide">
-                <!-- CLIENT CONTENT REQUIRED -->
-                <div class="product-slide-inner _02">
-                  <div class="product-content-hold">
-                    <div class="product-image-wrapper-main product-image"><img
-                        sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 939.9921875px"
-                        srcset="images/generated/jerkey_bag_green_1782546054822.png 500w, images/generated/jerkey_bag_green_1782546054822.png 1030w"
-                        alt="FEED THE IRON. Beef Biltong Hot Honey bag with green packaging."
-                        src="images/generated/jerkey_bag_green_1782546054822.png" loading="lazy"
-                        class="content-image _100-full product-image"></div>
-                  </div>
-                  <div class="product-bottom-info-box">
-                    <h3 class="h3-heading-main product-name">Beef Biltong Hot Honey</h3><a href="product/sour-pickle.html"
-                      class="product-slide-button-container sour-pickle w-inline-block">
-                      <div class="product-slide-button-wrapper _02">
-                        <div>Preorder</div>
-                        <div class="button-plus w-embed"><svg id="Layer_2" viewbox="0 0 99.43 99.43"
-                            xmlns="http://www.w3.org/2000/svg" data-name="Layer 2">
-                            <g id="Layer_1-2" width="inherit" height="inherit" fill="currentColor" data-name="Layer 1">
-                              <path
-                                d="m89.49 39.77h-29.83v-29.83c0-5.49-4.45-9.94-9.94-9.94-5.49 0-9.94 4.45-9.94 9.94v29.83h-29.84c-5.49 0-9.94 4.45-9.94 9.94s4.45 9.94 9.94 9.94h29.83v29.83c0 5.49 4.45 9.94 9.94 9.94 5.49 0 9.94-4.45 9.94-9.94v-29.83h29.83c5.49 0 9.94-4.45 9.94-9.94s-4.45-9.94-9.94-9.94z">
-                              </path>
-                            </g>
-                          </svg></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="product-slide">
-                <!-- CLIENT CONTENT REQUIRED -->
-                <div class="product-slide-inner _03">
-                  <div class="product-content-hold">
-                    <div class="product-image-wrapper-main product-image"><img loading="lazy"
-                        src="images/generated/jerkey_bag_spicy_1782545887064.png"
-                        alt="FEED THE IRON. Chili Cool Ranch bag with red packaging."
-                        class="content-image _100-full product-image"></div>
-                  </div>
-                  <div class="product-bottom-info-box">
-                    <h3 class="h3-heading-main product-name">Beef Biltong Peri Peri</h3><a href="product/chili-ranch.html"
-                      class="product-slide-button-container chili w-inline-block">
-                      <div class="product-slide-button-wrapper _03">
-                        <div>Preorder</div>
-                        <div class="button-plus w-embed"><svg id="Layer_2" viewbox="0 0 99.43 99.43"
-                            xmlns="http://www.w3.org/2000/svg" data-name="Layer 2">
-                            <g id="Layer_1-2" width="inherit" height="inherit" fill="currentColor" data-name="Layer 1">
-                              <path
-                                d="m89.49 39.77h-29.83v-29.83c0-5.49-4.45-9.94-9.94-9.94-5.49 0-9.94 4.45-9.94 9.94v29.83h-29.84c-5.49 0-9.94 4.45-9.94 9.94s4.45 9.94 9.94 9.94h29.83v29.83c0 5.49 4.45 9.94 9.94 9.94 5.49 0 9.94-4.45 9.94-9.94v-29.83h29.83c5.49 0 9.94-4.45 9.94-9.94s-4.45-9.94-9.94-9.94z">
-                              </path>
-                            </g>
-                          </svg></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="product-slide">
-                <!-- CLIENT CONTENT REQUIRED -->
-                <div class="product-slide-inner _04">
-                  <div class="product-content-hold">
-                    <div class="product-image-wrapper-main product-image"><img
-                        sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 939.9921875px"
-                        srcset="images/generated/jerkey_bag_blue_1782546071169.png 500w, images/generated/jerkey_bag_blue_1782546071169.png 1030w"
-                        alt="FEED THE IRON. Mutton Biltong bag with blue packaging."
-                        src="images/generated/jerkey_bag_blue_1782546071169.png" loading="lazy"
-                        class="content-image _100-full product-image"></div>
-                  </div>
-                  <div class="product-bottom-info-box">
-                    <h3 class="h3-heading-main product-name">Mutton Biltong</h3><a href="product/ocean-salty.html"
-                      class="product-slide-button-container ocean-salty w-inline-block">
-                      <div class="product-slide-button-wrapper _04">
-                        <div>Preorder</div>
-                        <div class="button-plus w-embed"><svg id="Layer_2" viewbox="0 0 99.43 99.43"
-                            xmlns="http://www.w3.org/2000/svg" data-name="Layer 2">
-                            <g id="Layer_1-2" width="inherit" height="inherit" fill="currentColor" data-name="Layer 1">
-                              <path
-                                d="m89.49 39.77h-29.83v-29.83c0-5.49-4.45-9.94-9.94-9.94-5.49 0-9.94 4.45-9.94 9.94v29.83h-29.84c-5.49 0-9.94 4.45-9.94 9.94s4.45 9.94 9.94 9.94h29.83v29.83c0 5.49 4.45 9.94 9.94 9.94 5.49 0 9.94-4.45 9.94-9.94v-29.83h29.83c5.49 0 9.94-4.45 9.94-9.94s-4.45-9.94-9.94-9.94z">
-                              </path>
-                            </g>
-                          </svg></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="product-slide">
-                <!-- CLIENT CONTENT REQUIRED -->
-                <div class="product-slide-inner _05">
-                  <div class="product-content-hold">
-                    <div class="product-image-wrapper-main product-image"><img
-                        sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 939.9921875px"
-                        srcset="images/generated/jerkey_bag_purple_1782546091214.png 500w, images/generated/jerkey_bag_purple_1782546091214.png 1030w"
-                        alt="FEED THE IRON. Chicken Biltong bag with purple packaging."
-                        src="images/generated/jerkey_bag_purple_1782546091214.png" loading="lazy"
-                        class="content-image _100-full product-image"></div>
-                  </div>
-                  <div class="product-bottom-info-box">
-                    <h3 class="h3-heading-main product-name">Chicken Biltong</h3><a href="product/charred-onion.html"
-                      class="product-slide-button-container charred-onion w-inline-block">
-                      <div class="product-slide-button-wrapper _05">
-                        <div>Preorder</div>
-                        <div class="button-plus w-embed"><svg id="Layer_2" viewbox="0 0 99.43 99.43"
-                            xmlns="http://www.w3.org/2000/svg" data-name="Layer 2">
-                            <g id="Layer_1-2" width="inherit" height="inherit" fill="currentColor" data-name="Layer 1">
-                              <path
-                                d="m89.49 39.77h-29.83v-29.83c0-5.49-4.45-9.94-9.94-9.94-5.49 0-9.94 4.45-9.94 9.94v29.83h-29.84c-5.49 0-9.94 4.45-9.94 9.94s4.45 9.94 9.94 9.94h29.83v29.83c0 5.49 4.45 9.94 9.94 9.94 5.49 0 9.94-4.45 9.94-9.94v-29.83h29.83c5.49 0 9.94-4.45 9.94-9.94s-4.45-9.94-9.94-9.94z">
-                              </path>
-                            </g>
-                          </svg></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="product-slide">
-                <!-- CLIENT CONTENT REQUIRED -->
-                <div class="product-slide-inner _06">
-                  <div class="product-content-hold">
-                    <div class="product-image-wrapper-main product-image"><img
-                        sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 939.9921875px"
-                        srcset="images/generated/jerkey_bag_teal_1782546111002.png 500w, images/generated/jerkey_bag_teal_1782546111002.png 1030w"
-                        alt="FEED THE IRON. STEAK FUEL (7-Seed Cracker) bag displayed on a neutral background."
-                        src="images/generated/jerkey_bag_teal_1782546111002.png" loading="lazy"
-                        class="content-image _100-full product-image"></div>
-                  </div>
-                  <div class="product-bottom-info-box">
-                    <h3 class="h3-heading-main product-name">FEED THE IRON. (7-Seed Cracker)</h3><a href="product/fresh-chive.html"
-                      class="product-slide-button-container fresh-chive w-inline-block">
-                      <div class="product-slide-button-wrapper _06">
-                        <div>Preorder</div>
-                        <div class="button-plus w-embed"><svg id="Layer_2" viewbox="0 0 99.43 99.43"
-                            xmlns="http://www.w3.org/2000/svg" data-name="Layer 2">
-                            <g id="Layer_1-2" width="inherit" height="inherit" fill="currentColor" data-name="Layer 1">
-                              <path
-                                d="m89.49 39.77h-29.83v-29.83c0-5.49-4.45-9.94-9.94-9.94-5.49 0-9.94 4.45-9.94 9.94v29.83h-29.84c-5.49 0-9.94 4.45-9.94 9.94s4.45 9.94 9.94 9.94h29.83v29.83c0 5.49 4.45 9.94 9.94 9.94 5.49 0 9.94-4.45 9.94-9.94v-29.83h29.83c5.49 0 9.94-4.45 9.94-9.94s-4.45-9.94-9.94-9.94z">
-                              </path>
-                            </g>
-                          </svg></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="w-layout-blockcontainer container variety-pack w-container">
-        <div class="variety-pack-content-wrapper">
-          <div class="w-layout-grid content-grid variety">
-            <div id="w-node-_920cfde8-2966-cbda-ee60-6ab650591c4d-c9cdfd59" class="grid-block">
-              <div sa-delay="0.1" sa-group="" sa-t="scroll" sa-s="0.1" sa-start="top 60%"
-                class="content-wrapper variety-pack">
-                <div class="text-box variety-pack-left-block">
-                  <h2 words-slide-up="" text-split="" class="h2-heading two-column">Get the FEED THE IRON. variety pack delivered today</h2>
-                  <div class="variety-pack-icons-container">
-                    <div class="variety-pack-icons-wrapper"><img class="variety-pack-icon" delay="0.2"
-                        src="695833524d7f967fc9cdfd5a/6959b3921e39302170b5895f_union.svg" alt="" duration="0.5"
-                        loading="lazy" scale-up="">
-                      <div class="w-layout-vflex flex-block-wrapper">
-                        <div lines-drop="" text-split="" class="variety-pack-icon-title">67g Protein</div>
-                        <p duration="0.3" text-split="" lines-drop="" delay="0.4" class="small-paragraph no-margin">
-                          Protein density achieved through the 3:1 air-cure ratio. Verified by lab testing.</p>
-                      </div>
-                    </div>
-                    <div class="variety-pack-icons-wrapper"><img class="variety-pack-icon" delay="0.2"
-                        src="695833524d7f967fc9cdfd5a/6959b3740a875e25c7c775b9_pyramid.svg" alt="" duration="0.5"
-                        loading="lazy" scale-up="">
-                      <div class="w-layout-vflex flex-block-wrapper">
-                        <div lines-drop="" text-split="" class="variety-pack-icon-title">Zero Preservatives</div>
-                        <p duration="0.3" text-split="" lines-drop="" delay="0.4" class="small-paragraph no-margin">
-                          No sodium nitrite. No MSG. No artificial colour. Salt + Time = the only inputs.</p>
-                      </div>
-                    </div>
-                    <div class="variety-pack-icons-wrapper"><img class="variety-pack-icon" delay="0.2"
-                        src="695833524d7f967fc9cdfd5a/6959b3c7c8204500815a8ac8_intestine.svg" alt="" duration="0.5"
-                        loading="lazy" scale-up="">
-                      <div class="w-layout-vflex flex-block-wrapper">
-                        <div lines-drop="" text-split="" class="variety-pack-icon-title">Air Cured Below 35°C</div>
-                        <p duration="0.3" text-split="" lines-drop="" delay="0.4" class="small-paragraph no-margin">
-                          Creatine and Taurine remain bioavailable. Heat-denatured amino acids are not in our product.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="button-container-03"><a href="shop-all.html" class="blob-button w-inline-block">
-                      <div class="blob-button-inner">
-                        <div class="blob-button-blobs">
-                          <div class="blob-button-blob _01"></div>
-                          <div class="blob-button-blob _02"></div>
-                          <div class="blob-button-blob _03"></div>
-                          <div class="blob-button-blob _04"></div>
-                        </div>
-                      </div>
-                      <div class="goo-svg-for-button w-embed"><svg xmlns="http://www.w3.org/2000/svg"
-                          style="position:absolute;width:0;height:0">
-                          <defs>
-                            <filter id="goo">
-                              <fegaussianblur in="SourceGraphic" stddeviation="12" result="blur"></fegaussianblur>
-                              <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 28 -10" result="goo">
-                              </fecolormatrix>
-                              <fecomposite in="SourceGraphic" in2="goo" operator="atop"></fecomposite>
-                            </filter>
-                          </defs>
-                        </svg></div>
-                      <div class="button-text-01">SHOP FEED THE IRON.</div><img loading="lazy"
-                        src="695833524d7f967fc9cdfd5a/6959b12f79f76da53d456fb9_right-arrow.svg" alt=""
-                        class="right-arrow-button">
-                    </a></div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-block">
-              <div delay="0.3" slide-up-scale="" duration="0.6" class="image-wrapper variety-box-chips"><img
-                  class="content-image _100-full"
-                  src="images/generated/jerkey_lineup_1782545906570.png" height="Auto"
-                  alt="FEED THE IRON. Air-Cured Biltong packs lineup featuring premium protein snacks." decoding="async"
-                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.984375px, 939.984375px" loading="lazy"
-                  srcset="images/generated/jerkey_lineup_1782545906570.png 500w, images/generated/jerkey_lineup_1782545906570.png 1167w">
-              </div>
-              <div class="image-wrapper variety-box"><img class="content-image _100-full variety-box"
-                  src="images/generated/jerkey_variety_box_1782546003260.png" height="Auto"
-                  alt="Open FEED THE IRON.ed box showing Air-Cured Biltong packaging inside." decoding="async" duration="0.6"
-                  slide-up="" loading="lazy"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="w-layout-blockcontainer container home-about w-container">
-        <div class="w-layout-grid heading-grid center about-us-home">
-          <div id="w-node-_396545fd-99b0-b237-6dc9-a7d399dcc5f8-c9cdfd59" class="grid-block">
-            <div class="text-box about-home-heading">
-              <h2 words-slide-up="" text-split="" class="h2-heading no-margin large">100% India Sourced. Farm to Pouch.</h2>
-            </div>
-          </div>
-        </div>
-        <div class="content-wrapper about-us-home">
-          <div class="content-block about-01 display-none-table">
-            <div duration="0.8" slide-in-left="" class="image-wrapper lifestyle-01"><img
-                src="images/generated/jerkey_bowl_1782545961237.png" loading="lazy"
-                sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 882px"
-                srcset="images/generated/jerkey_bowl_1782545961237.png 500w, images/generated/jerkey_bowl_1782545961237.png 882w"
-                alt="Person enjoying premium Air-Cured Biltong snack with a beverage." class="content-image _100-full"></div>
-          </div>
-          <div class="content-block about-02">
-            <div duration="0.9" slide-up="" class="image-wrapper woman-eating-chips"><img
-                src="images/generated/jerkey_person_eating_1782546036577.png" loading="lazy"
-                alt="Studio portrait of a woman eating premium Air-Cured Biltong." class="content-image _100-full"></div>
-            <div class="text-box about-us-home-middle">
-              <div class="about-home-sub-heading-text-box">
-                <h2 words-slide-up="" text-split="" class="h2-heading two-column smaller">A DIFFERENT KIND OF SNACK</h2>
-              </div>
-              <div duration="0.6" slide-blur-fade-down="" class="text-box">
-                <p class="paragraph">FEED THE IRON. started with a simple idea: everyday snacks shouldn’t feel like a compromise. We set out to rethink what a premium protein snack could be by focusing on quality, nutrition, and taste. No shortcuts, no compromises — just premium Air-Cured Biltong designed to fit naturally into your fitness routine and active lifestyle.<br><br>Everything we craft in Trivandrum, Kerala, is guided by quality and intention, from sourcing the premium cuts to our traditional drying process. FEED THE IRON. is about creating high-protein snacks that feel straightforward, reliable, and satisfying — the kind you keep coming back to because they simply work.</p>
-                <div duration="0.6" slide-blur-fade-down="" class="button-container-03"><a href="#"
-                    class="blob-button w-inline-block">
-                    <div class="blob-button-inner">
-                      <div class="blob-button-blobs">
-                        <div class="blob-button-blob _01"></div>
-                        <div class="blob-button-blob _02"></div>
-                        <div class="blob-button-blob _03"></div>
-                        <div class="blob-button-blob _04"></div>
-                      </div>
-                    </div>
-                    <div class="goo-svg-for-button w-embed"><svg xmlns="http://www.w3.org/2000/svg"
-                        style="position:absolute;width:0;height:0">
-                        <defs>
-                          <filter id="goo">
-                            <fegaussianblur in="SourceGraphic" stddeviation="12" result="blur"></fegaussianblur>
-                            <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 28 -10" result="goo">
-                            </fecolormatrix>
-                            <fecomposite in="SourceGraphic" in2="goo" operator="atop"></fecomposite>
-                          </filter>
-                        </defs>
-                      </svg></div>
-                    <div class="button-text-01">Our Story</div><img loading="lazy"
-                      src="695833524d7f967fc9cdfd5a/6959b12f79f76da53d456fb9_right-arrow.svg" alt=""
-                      class="right-arrow-button">
-                  </a></div>
-              </div>
-            </div>
-          </div>
-          <div class="content-block about-03 display-none-tablet">
-            <div duration="0.8" slide-in-right="" class="image-wrapper lifestyle-02"><img
-                src="images/generated/jerkey_bowl_1782545961237.png" loading="lazy"
-                sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 882px"
-                srcset="images/generated/jerkey_bowl_1782545961237.png 500w, images/generated/jerkey_bowl_1782545961237.png 882w"
-                alt="Hands preparing a bowl of premium Air-Cured Biltong on a kitchen counter."
-                class="content-image _100-full"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="w-layout-blockcontainer container review w-container">
-        <div class="w-layout-grid heading-grid home-reviews">
-          <div id="w-node-edbe21fe-463b-f02d-78eb-636af6f596a0-c9cdfd59" class="grid-block">
-            <div class="heading-text-box">
-              <h2 words-slide-up="" text-split="" class="h2-heading no-margin large">Happy customers</h2>
-            </div>
-          </div>
-          <div id="w-node-edbe21fe-463b-f02d-78eb-636af6f596a4-c9cdfd59" class="grid-block auto-right-tablet">
-            <div duration="0.6" slide-blur-fade-down="" class="button-container-03"><a href="#"
-                class="blob-button w-inline-block">
-                <div class="blob-button-inner">
-                  <div class="blob-button-blobs">
-                    <div class="blob-button-blob _01"></div>
-                    <div class="blob-button-blob _02"></div>
-                    <div class="blob-button-blob _03"></div>
-                    <div class="blob-button-blob _04"></div>
-                  </div>
-                </div>
-                <div class="goo-svg-for-button w-embed"><svg xmlns="http://www.w3.org/2000/svg"
-                    style="position:absolute;width:0;height:0">
-                    <defs>
-                      <filter id="goo">
-                        <fegaussianblur in="SourceGraphic" stddeviation="12" result="blur"></fegaussianblur>
-                        <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 28 -10" result="goo">
-                        </fecolormatrix>
-                        <fecomposite in="SourceGraphic" in2="goo" operator="atop"></fecomposite>
-                      </filter>
-                    </defs>
-                  </svg></div>
-                <div class="button-text-01">View all</div><img loading="lazy"
-                  src="695833524d7f967fc9cdfd5a/6959b12f79f76da53d456fb9_right-arrow.svg" alt=""
-                  class="right-arrow-button">
-              </a></div>
-          </div>
-        </div>
-        <!-- CLIENT CONTENT REQUIRED -->
-        <div class="product-slider-02">
-          <div class="product-slider-wrapper-02">
-            <div child-selector=".product-slide-02" slide-up="" duration="0.6" stagger="0.12"
-              class="product-slider-mask">
-              <div class="product-slide-02 small-padding">
-                <div class="review-box-container">
-                  <div class="image-wrapper review-image"><img
-                      src="images/generated/jerkey_social_01_1782546146751.png" loading="lazy"
-                      alt="Side view close-up of a person eating premium Air-Cured Biltong."
-                      class="content-image _100-full absolute-cover-main"></div>
-                  <div class="review-box-inner">
-                    <div class="review-quote">“Air-cured. Not cooked. The difference is bioavailability.”
-                    </div>
-                  </div>
-                  <div class="review-box-bottom">
-                    <div class="review-handle">@jillb321</div>
-                  </div>
-                </div>
-              </div>
-              <div class="product-slide-02 small-padding">
-                <div class="review-box-container">
-                  <div class="image-wrapper review-image"><img
-                      src="images/generated/jerkey_bowl_1782545961237.png" loading="lazy"
-                      sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 774px"
-                      srcset="images/generated/jerkey_bowl_1782545961237.png 500w, images/generated/jerkey_bowl_1782545961237.png 774w"
-                      alt="Basket filled with premium Air-Cured Biltong served on a table."
-                      class="content-image _100-full absolute-cover-main"></div>
-                  <div class="review-box-inner">
-                    <div class="review-quote">“67g per 100g. Compare that to your current snack.”
-                    </div>
-                  </div>
-                  <div class="review-box-bottom">
-                    <div class="review-handle">@tara543</div>
-                  </div>
-                </div>
-              </div>
-              <div class="product-slide-02 small-padding">
-                <div class="review-box-container">
-                  <div class="image-wrapper review-image"><img
-                      src="images/generated/jerkey_social_02_1782546162894.png" loading="lazy"
-                      alt="Person holding a bowl of premium Air-Cured Biltong while snacking."
-                      class="content-image _100-full absolute-cover-main"></div>
-                  <div class="review-box-inner">
-                    <div class="review-quote">“Finally a protein snack that actually tastes good <em>and</em> doesn’t make me
-                      feel gross after.”</div>
-                  </div>
-                  <div class="review-box-bottom">
-                    <div class="review-handle">@summer356</div>
-                  </div>
-                </div>
-              </div>
-              <div class="product-slide-02 small-padding">
-                <div class="review-box-container">
-                  <div class="image-wrapper review-image"><img
-                      src="images/generated/jerkey_social_01_1782546146751.png" loading="lazy"
-                      alt="Profile view of a person eating a single piece of Air-Cured Biltong."
-                      class="content-image _100-full absolute-cover-main"></div>
-                  <div class="review-box-inner">
-                    <div class="review-quote">“Didn’t expect to finish the whole pack in one sitting… but here we are.
-                      Seriously addictive.”</div>
-                  </div>
-                  <div class="review-box-bottom">
-                    <div class="review-handle">@tanlitmas</div>
-                  </div>
-                </div>
-              </div>
-              <div class="product-slide-02 small-padding">
-                <div class="review-box-container">
-                  <div class="image-wrapper review-image"><img
-                      src="images/generated/jerkey_social_02_1782546162894.png" loading="lazy"
-                      alt="Multiple hands reaching into a bowl of premium Air-Cured Biltong."
-                      class="content-image _100-full absolute-cover-main"></div>
-                  <div class="review-box-inner">
-                    <div class="review-quote">“Perfect balance of bold flavor and premium protein without being too heavy. I keep
-                      reordering.”</div>
-                  </div>
-                  <div class="review-box-bottom">
-                    <div class="review-handle">@kfe555</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div duration="0.3" slide-up="" class="slider-progress-container">
-            <div class="slider-progress-switch"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="w-layout-blockcontainer container instagram w-container">
-        <div class="w-layout-grid heading-grid home-reviews">
-          <div id="w-node-_1cd62530-a228-64a6-65c2-446b2a1b5bd9-2a1b5bd6" class="grid-block">
-            <div class="heading-text-box social">
-              <h2 words-slide-up="" text-split="" class="h2-heading no-margin large">Feed your feed</h2>
-              <div delay="0.2" scale-up="" duration="0.5" class="insta-handle">
-                <!-- CLIENT CONTENT REQUIRED -->
-                <div class="insta-handle-text">@FEED THE IRON.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="marquee-main-content-container">
-          <div class="marquee-horizontal-wrap alternate">
-            <div class="marquee-horizontal-panel-alternate-01">
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_social_01_1782546146751.png" width="250" height="250"
-                  alt="Close-up of a person biting into an FEED THE IRON. Air-Cured Biltong piece." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_social_01_1782546146751.png 500w, images/generated/jerkey_social_01_1782546146751.png 800w, images/generated/jerkey_social_01_1782546146751.png 1000w">
-              </div>
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_social_02_1782546162894.png" width="250" height="250"
-                  alt="Hand reaching into a bowl filled with FEED THE IRON. Air-Cured Biltong." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_social_02_1782546162894.png 500w, images/generated/jerkey_social_02_1782546162894.png 800w, images/generated/jerkey_social_02_1782546162894.png 1000w">
-              </div>
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_hand_holding_1782545924976.png" width="250" height="250"
-                  alt="Man holding a large pile of Air-Cured Biltong with a surprised expression." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_hand_holding_1782545924976.png 500w, images/generated/jerkey_hand_holding_1782545924976.png 800w, images/generated/jerkey_hand_holding_1782545924976.png 1000w">
-              </div>
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_bowl_1782545961237.png" width="250" height="250"
-                  alt="Woman holding a bowl of Air-Cured Biltong while snacking." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_bowl_1782545961237.png 500w, images/generated/jerkey_bowl_1782545961237.png 800w, images/generated/jerkey_bowl_1782545961237.png 1080w, images/generated/jerkey_bowl_1782545961237.png 1500w">
-              </div>
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_piece_02_1782545982960.png" width="250" height="250"
-                  alt="Ridged Air-Cured Biltong spilling from a container onto a surface." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_piece_02_1782545982960.png 500w, images/generated/jerkey_piece_02_1782545982960.png 800w, images/generated/jerkey_piece_02_1782545982960.png 1000w">
-              </div>
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_hand_bag_1782545942356.png" width="250" height="250"
-                  alt="Hand grabbing Air-Cured Biltong against a red background." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_hand_bag_1782545942356.png 500w, images/generated/jerkey_hand_bag_1782545942356.png 667w">
-              </div>
-            </div>
-            <div class="marquee-horizontal-panel-alternate-01">
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_social_01_1782546146751.png" width="250" height="250"
-                  alt="Close-up of a person biting into an FEED THE IRON. Air-Cured Biltong piece." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_social_01_1782546146751.png 500w, images/generated/jerkey_social_01_1782546146751.png 800w, images/generated/jerkey_social_01_1782546146751.png 1000w">
-              </div>
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_social_02_1782546162894.png" width="250" height="250"
-                  alt="Hand reaching into a bowl filled with FEED THE IRON. Air-Cured Biltong." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_social_02_1782546162894.png 500w, images/generated/jerkey_social_02_1782546162894.png 800w, images/generated/jerkey_social_02_1782546162894.png 1000w">
-              </div>
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_hand_holding_1782545924976.png" width="250" height="250"
-                  alt="Man holding a large pile of Air-Cured Biltong with a surprised expression." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_hand_holding_1782545924976.png 500w, images/generated/jerkey_hand_holding_1782545924976.png 800w, images/generated/jerkey_hand_holding_1782545924976.png 1000w">
-              </div>
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_bowl_1782545961237.png" width="250" height="250"
-                  alt="Woman holding a bowl of Air-Cured Biltong while snacking." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_bowl_1782545961237.png 500w, images/generated/jerkey_bowl_1782545961237.png 800w, images/generated/jerkey_bowl_1782545961237.png 1080w, images/generated/jerkey_bowl_1782545961237.png 1500w">
-              </div>
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_piece_02_1782545982960.png" width="250" height="250"
-                  alt="Ridged Air-Cured Biltong spilling from a container onto a surface." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_piece_02_1782545982960.png 500w, images/generated/jerkey_piece_02_1782545982960.png 800w, images/generated/jerkey_piece_02_1782545982960.png 1000w">
-              </div>
-              <div class="social-image-wrap instapost"><img class="content-image _100-full absolute-cover"
-                  src="images/generated/jerkey_hand_bag_1782545942356.png" width="250" height="250"
-                  alt="Hand grabbing Air-Cured Biltong against a red background." decoding="async"
-                  sizes="(max-width: 479px) 100vw, 250px" loading="lazy"
-                  srcset="images/generated/jerkey_hand_bag_1782545942356.png 500w, images/generated/jerkey_hand_bag_1782545942356.png 667w">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="w-layout-blockcontainer container cta-bottom w-container">
-        <div duration="0.4" scale-up="" class="image-wrapper diamond-star-02"><img
-            src="images/seakfuel.png" loading="lazy" alt=""
-            class="nav-logo-header"></div>
-        <div duration="0.4" scale-up="" class="image-wrapper diamond-star-01"><img
-            src="images/seakfuel.png" loading="lazy" alt=""
-            class="nav-logo-header"></div>
-        <div class="cta-content-large">
-          <div class="column-small column-center">
-            <h2 words-slide-up="" text-split="" class="h2-heading two-column">GET 15% OFF YOUR FIRST ORDER.</h2>
-            <div duration="0.6" slide-blur-fade-down="" class="text-box">
-              <p class="paragraph no-margin">Be the first to know and receive in-depth updates about FEED THE IRON..</p>
-            </div>
-          </div>
-          <div class="form-block w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="cta-column"
-              data-wf-page-id="695833524d7f967fc9cdfd59" data-wf-element-id="1a208f3d-8f82-d11d-cb51-168a9677339e">
-              <div stagger="0.12" slide-up="" duration="0.4" class="form-row"><input
-                  class="form-text-field-rounded w-input" maxlength="256" name="Newsletter-Email"
-                  data-name="Newsletter Email" placeholder="Enter Your Email..." type="email"
-                  id="Newsletter-Email"><input type="submit" data-wait="Please wait..."
-                  class="submitt-form-button w-button" value="Subscribe"></div>
-            </form>
-            <div class="message-success w-form-done">
-              <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="w-form-fail">
-              <div>Oops! Something went wrong while submitting the form.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="background">
-        <div class="noise"></div>
       </div>
     </section>
   </div>
+  <script>
+    function handleLaunchSubmit(e) {
+      e.preventDefault();
+
+      var nameVal  = document.getElementById('Full-Name').value.trim();
+      var phoneVal = document.getElementById('Mobile-Or-Email').value.trim();
+      var placeVal = document.getElementById('Place').value.trim();
+      var errorEl  = document.getElementById('contact-error');
+
+      // All fields must be filled
+      if (!nameVal || !phoneVal || !placeVal) return false;
+
+      // Name & Place: letters and spaces only
+      var alphaOnly = /^[a-zA-Z\s]+$/;
+      if (!alphaOnly.test(nameVal) || !alphaOnly.test(placeVal)) return false;
+
+      // Phone: exactly 10 digits
+      var phoneRegex = /^[0-9]{10}$/;
+      if (!phoneRegex.test(phoneVal)) {
+        errorEl.style.display = 'block';
+        return false;
+      }
+      errorEl.style.display = 'none';
+
+      // Hide form, show success
+      var form = document.getElementById('launch-list-form');
+      var successEl = document.getElementById('launch-success');
+      form.style.display = 'none';
+      successEl.style.display = 'block';
+
+      // Redirect to coming-soon after 2.5 seconds
+      setTimeout(function() {
+        window.location.href = 'coming-soon.html';
+      }, 2500);
+
+      return false;
+    }
+  </script>
   <section class="section darker-red">
     <div class="wave-lottie-animation below footer" data-w-id="252e53e0-ec1a-0793-5c1f-c00389c98a5f"
       data-animation-type="lottie"
@@ -1282,10 +698,8 @@
           <div class="footer-large-column">
             <div class="footer-menu-title">MENU</div>
             <div class="wrap-v-regular">
-              <a href="index.html"
-                aria-current="page" class="footer-link-dark w--current">HOME</a><a href="coming-soon.html" class="footer-link-dark">Our Story</a><a href="coming-soon.html" class="footer-link-dark">Science</a><a href="shop-all.html" class="footer-link-dark">Shop all</a><a href="shop-all.html"
-                class="footer-link-dark">FAQ</a><a href="coming-soon.html" class="footer-link-dark">Reviews</a><a
-                href="contact.html" class="footer-link-dark">Contact</a></div>
+              <a href="index.html" class="footer-link-dark">HOME</a><a href="coming-soon.html" class="footer-link-dark">Our Story</a><a href="coming-soon.html" class="footer-link-dark">Science</a><a href="shop-all.html" class="footer-link-dark">Shop all</a><a href="faq.html" class="footer-link-dark">FAQ</a><a href="coming-soon.html" class="footer-link-dark">Reviews</a><a href="contact.html" class="footer-link-dark">Contact</a>
+            </div>
           </div>
         </div>
         <div id="w-node-e1e63dd5-bd7a-6ab4-f00b-e10e8c26aaed-89c98a5e" class="footer-block left">
@@ -1295,10 +709,7 @@
           </div>
         </div>
         <div id="w-node-_252e53e0-ec1a-0793-5c1f-c00389c98a6f-89c98a5e" class="footer-block middle">
-          <div class="footer-logo-image-wrapper"><a href="index.html" aria-current="page"
-              class="footer-logo-link-block w-inline-block w--current"><img loading="lazy"
-                src="images/steakfuel-tlogo.png"
-                alt="FEED THE IRON. logo displayed in white." class="footer-logo-image"></a></div>
+          <div class="footer-logo-image-wrapper"><a href="index.html" class="footer-logo-link-block w-inline-block"><img loading="lazy" src="images/steakfuel-tlogo.png" alt="STEAK FUEL logo displayed in white." class="footer-logo-image"></a></div>
         </div>
         <div id="w-node-_252e53e0-ec1a-0793-5c1f-c00389c98a79-89c98a5e" class="footer-block right">
           <div class="footer-large-column">
@@ -1309,12 +720,11 @@
       </div>
     </div>
     <div class="below-wave-footer-container">
-      <div class="footer-bottom">Developed By<a target="_blank" rel="noopener noreferrer" id="w-node-_252e53e0-ec1a-0793-5c1f-c00389c98a86-89c98a5e"
-          href="https://www.makewithus.in/" class="footer-bottom-link"><b>makewithus</b></a>
+      <div class="footer-bottom">Developed By<a target="_blank" rel="noopener noreferrer" id="w-node-_252e53e0-ec1a-0793-5c1f-c00389c98a86-89c98a5e" href="https://www.makewithus.in/" class="footer-bottom-link"><b>makewithus</b></a>
     </div>
   </section>
   <script src="js/jquery-3.5.1.min.dc5e7f18c8.js?site=695833524d7f967fc9cdfd5a" type="text/javascript"
-   crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
   <script src="695833524d7f967fc9cdfd5a/js/webflow.schunk.f3a08821b4e31f89.js" type="text/javascript"
     crossorigin="anonymous"></script>
   <script src="695833524d7f967fc9cdfd5a/js/webflow.schunk.dd44ac5bb1f8cbc2.js" type="text/javascript"
@@ -1339,7 +749,7 @@
         const blobsWrap = btn.querySelector(".blob-button-blobs");
         const blobs = Array.from(btn.querySelectorAll(".blob-button-blob"));
 
-        // ✅ ONLY CHANGE: broaden selector so we actually hit the visible red button text
+        // ? ONLY CHANGE: broaden selector so we actually hit the visible red button text
         const text = btn.querySelector(".button-text-01.red, .button-text.red");
 
         const arrowPath = btn.querySelector(".right-arrow-button svg path");
@@ -1552,7 +962,7 @@
         function firstNumber(val) {
           if (val == null) return NaN;
           var s = String(val);
-          s = s.replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
+          s = s.replace(/[��]/g, '"').replace(/[��]/g, "'");
           var m = s.match(/-?\d+(\.\d+)?/);
           return m ? parseFloat(m[0]) : NaN;
         }
@@ -2454,7 +1864,7 @@
          ADJUSTMENT:
          - When closing (hover-off / click-off), fade the
            .list-wrapper border color to transparent BEFORE
-           the dropdown fully hides so it doesn’t disappear abruptly.
+           the dropdown fully hides so it doesn�t disappear abruptly.
          - Everything else remains unchanged.
       ========================================================= */
 
@@ -2639,12 +2049,12 @@
 
       $(".nav-wrapper").each(function () {
         /* === EASY ADJUSTMENTS ===
-           flipDuration   → menu open/close speed
-           linksDuration  → menu link reveal speed
-           linksEach      → stagger between menu links
-           linksStart     → when links start
-           hoverScale     → scale amount on menu link hover
-           hoverSpeed     → hover animation speed
+           flipDuration   ? menu open/close speed
+           linksDuration  ? menu link reveal speed
+           linksEach      ? stagger between menu links
+           linksStart     ? when links start
+           hoverScale     ? scale amount on menu link hover
+           hoverSpeed     ? hover animation speed
         */
 
         let hamburgerEl = $(this).find(".nav-hamburger-wrap");
@@ -2705,7 +2115,7 @@
               zIndex: 999999999,
               right: "2rem",
               top: "2rem",
-              // ✅ ONLY EDIT: conditional Close color
+              // ? ONLY EDIT: conditional Close color
               color: hamburgerIsWhite() ? "red" : "white",
               position: "absolute"
             });
@@ -2885,1144 +2295,6 @@
           });
         });
       });
-    });
-  </script>
-  <script>
-    window.Webflow = window.Webflow || [];
-    window.Webflow.push(function () {
-      if (!window.gsap) return;
-
-      var gsap = window.gsap;
-
-      var MOBILE_BREAKPOINT = 568;
-
-      // If an instance already exists, refresh it (but only if we're NOT on mobile)
-      if (window.__SIPLY_WHEEL__ && typeof window.__SIPLY_WHEEL__.refresh === "function") {
-        if (window.innerWidth <= MOBILE_BREAKPOINT) {
-          if (typeof window.__SIPLY_WHEEL__.destroy === "function") window.__SIPLY_WHEEL__.destroy();
-          window.__SIPLY_WHEEL__ = null;
-          return;
-        }
-        window.__SIPLY_WHEEL__.refresh(true);
-        return;
-      }
-
-      var CFG = {
-        arcStepDeg: 24,
-        radiusXFactor: 0.62,
-        radiusYFromWidthFactor: 0.22,
-
-        rotateFactor: 0.85,
-        scaleMin: 0.78,
-
-        ease: "power3.out",
-        duration: 0.7,
-
-        visibleRange: 2,
-        animateRange: 2,
-
-        dragPixelsPerStep: 120,
-        dragDamp: 0.92,
-
-        heightPadding: 28,
-        heightMin: 260,
-        heightMaxVh: 0.78,
-
-        uiInDuration1: 0.22,
-        uiInDuration2: 0.16,
-        uiOvershoot: 1.08,
-        uiEaseIn: "power2.out",
-        uiEaseSettle: "power2.inOut",
-
-        splashDuration: 0.28,
-        splashEase: "power2.out",
-
-        // ✅ NEW: Only treat as drag after the pointer moves this many px
-        dragStartThresholdPx: 8
-      };
-
-      var slider = document.querySelector(".product-slider");
-      if (!slider) return;
-
-      // ✅ Kill ALL functionality on <= 568px
-      if (window.innerWidth <= MOBILE_BREAKPOINT) {
-        window.__SIPLY_WHEEL__ = null;
-        return;
-      }
-
-      var viewport = slider.querySelector(".product-wheel-viewport");
-      var wheel = slider.querySelector(".product-wheel");
-      var slides = Array.prototype.slice.call(slider.querySelectorAll(".product-slide"));
-      if (!viewport || !wheel || !slides.length) return;
-
-      var btnPrev = slider.querySelector(".product-prev");
-      var btnNext = slider.querySelector(".product-next");
-
-      slider.style.position = "relative";
-      slider.style.width = "100%";
-      slider.style.maxWidth = "none";
-
-      viewport.style.position = "relative";
-      viewport.style.width = "100%";
-      viewport.style.maxWidth = "none";
-      viewport.style.overflow = "hidden";
-
-      wheel.style.position = "absolute";
-      wheel.style.top = "0";
-      wheel.style.left = "0";
-      wheel.style.width = "100%";
-      wheel.style.height = "100%";
-      wheel.style.transform = "none";
-      wheel.style.willChange = "transform";
-      wheel.style.touchAction = "pan-y";
-      wheel.style.cursor = "grab";
-
-      slides.forEach(function (slide) {
-        slide.style.position = "absolute";
-        slide.style.top = "50%";
-        slide.style.left = "50%";
-        slide.style.willChange = "transform, opacity";
-        slide.style.transformOrigin = "50% 60%";
-
-        gsap.set(slide, { xPercent: -50, yPercent: -50, x: 0, y: 0, scale: 1 });
-
-        var inner = slide.querySelector(".product-slide-inner");
-        if (inner) {
-          inner.style.willChange = "transform";
-          inner.style.transformOrigin = "50% 60%";
-          gsap.set(inner, { rotate: 0 });
-        }
-
-        var infoBox = slide.querySelector(".product-bottom-info-box");
-        if (infoBox) {
-          infoBox.style.willChange = "transform, opacity";
-          infoBox.style.transformOrigin = "50% 50%";
-          gsap.set(infoBox, { opacity: 0, scale: 0 });
-        }
-
-        var splash01 = slide.querySelector(".splash-can-container .splash-01");
-        if (splash01) {
-          splash01.style.willChange = "transform, opacity";
-          splash01.style.transformOrigin = "50% 50%";
-          gsap.set(splash01, { opacity: 0, scale: 0 });
-        }
-      });
-
-      if (btnPrev) {
-        btnPrev.style.position = "absolute";
-        btnPrev.style.zIndex = "20";
-        btnPrev.style.top = "50%";
-        btnPrev.style.transform = "translateY(-50%)";
-        btnPrev.style.left = "16px";
-        btnPrev.style.cursor = "pointer";
-        btnPrev.style.userSelect = "none";
-      }
-
-      if (btnNext) {
-        btnNext.style.position = "absolute";
-        btnNext.style.zIndex = "20";
-        btnNext.style.top = "50%";
-        btnNext.style.transform = "translateY(-50%)";
-        btnNext.style.right = "16px";
-        btnNext.style.cursor = "pointer";
-        btnNext.style.userSelect = "none";
-      }
-
-      function wrapIndex(i, len) {
-        i = i % len;
-        return i < 0 ? i + len : i;
-      }
-
-      function degToRad(d) {
-        return (d * Math.PI) / 180;
-      }
-
-      function getRect(el) {
-        var r = el.getBoundingClientRect();
-        return { w: r.width, h: r.height };
-      }
-
-      var activeAbs = 0;
-      var lastActiveAbs = activeAbs;
-
-      var lastVisibleByIndex = slides.map(function () { return false; });
-
-      var isAnimating = false;
-      var animUnlockTimer = null;
-
-      function setStableViewportHeight() {
-        var vr = getRect(viewport);
-        if (vr.w <= 0) return;
-
-        var maxCardH = 0;
-        slides.forEach(function (slide) {
-          var inner = slide.querySelector(".product-slide-inner") || slide;
-          var rect = inner.getBoundingClientRect();
-          var h = rect && rect.height ? rect.height : 0;
-          if (h > maxCardH) maxCardH = h;
-        });
-
-        var arcHeight = vr.w * CFG.radiusYFromWidthFactor;
-        var target = Math.ceil(maxCardH + arcHeight + CFG.heightPadding);
-
-        var maxAllowed = Math.floor(window.innerHeight * CFG.heightMaxVh);
-        target = Math.max(CFG.heightMin, target);
-        target = Math.min(maxAllowed, target);
-
-        gsap.set(viewport, { height: target });
-      }
-
-      function hideSlideUI(slide) {
-        var infoBox = slide.querySelector(".product-bottom-info-box");
-        if (infoBox) gsap.set(infoBox, { opacity: 0, scale: 0, overwrite: true });
-
-        var splash01 = slide.querySelector(".splash-can-container .splash-01");
-        if (splash01) gsap.set(splash01, { opacity: 0, scale: 0, overwrite: true });
-      }
-
-      function forceActiveUIVisible(slide) {
-        var infoBox = slide.querySelector(".product-bottom-info-box");
-        if (infoBox) gsap.set(infoBox, { opacity: 1, scale: 1, overwrite: true });
-
-        var splash01 = slide.querySelector(".splash-can-container .splash-01");
-        if (splash01) gsap.set(splash01, { opacity: 1, scale: 1, overwrite: true });
-      }
-
-      function revealActiveUI(slide) {
-        var infoBox = slide.querySelector(".product-bottom-info-box");
-        var splash01 = slide.querySelector(".splash-can-container .splash-01");
-
-        if (infoBox) gsap.killTweensOf(infoBox);
-        if (splash01) gsap.killTweensOf(splash01);
-
-        if (infoBox) {
-          var tlInfo = gsap.timeline({ overwrite: true });
-          tlInfo.set(infoBox, { opacity: 0, scale: 0 });
-          tlInfo.to(infoBox, {
-            opacity: 1,
-            scale: CFG.uiOvershoot,
-            duration: CFG.uiInDuration1,
-            ease: CFG.uiEaseIn
-          });
-          tlInfo.to(infoBox, {
-            scale: 1,
-            duration: CFG.uiInDuration2,
-            ease: CFG.uiEaseSettle
-          });
-          tlInfo.set(infoBox, { opacity: 1, scale: 1 });
-        }
-
-        if (splash01) {
-          var tlSplash = gsap.timeline({ overwrite: true });
-          tlSplash.set(splash01, { opacity: 0, scale: 0 });
-          tlSplash.to(splash01, {
-            opacity: 1,
-            scale: 1,
-            duration: CFG.splashDuration,
-            ease: CFG.splashEase
-          });
-          tlSplash.set(splash01, { opacity: 1, scale: 1 });
-        }
-      }
-
-      function layout(animate) {
-        var vr = getRect(viewport);
-        var len = slides.length;
-        if (vr.w <= 0) return;
-
-        var step = CFG.arcStepDeg;
-        var radiusX = vr.w * CFG.radiusXFactor;
-        var radiusY = vr.w * CFG.radiusYFromWidthFactor;
-
-        var activeIndex = wrapIndex(activeAbs, len);
-
-        var relByIndex = slides.map(function () { return null; });
-        for (var k = -CFG.visibleRange; k <= CFG.visibleRange; k++) {
-          var idx = wrapIndex(activeIndex + k, len);
-          relByIndex[idx] = k;
-        }
-
-        slides.forEach(function (slide, i) {
-          var rel = relByIndex[i];
-          var isVisible = rel !== null;
-          var wasVisible = lastVisibleByIndex[i] === true;
-
-          if (!isVisible) {
-            gsap.set(slide, { opacity: 0, pointerEvents: "none" });
-            slide.style.zIndex = "0";
-            hideSlideUI(slide);
-            lastVisibleByIndex[i] = false;
-            slide.setAttribute("data-active", "false");
-            return;
-          }
-
-          var absRel = Math.abs(rel);
-
-          var a = degToRad(rel * step);
-          var x = Math.sin(a) * radiusX;
-          var y = (1 - Math.cos(a)) * radiusY;
-          var rot = (rel * step) * CFG.rotateFactor;
-
-          var dist = Math.min(absRel, 4);
-          var tt = dist / 4;
-          var scale = (1 - tt) * (1 - CFG.scaleMin) + CFG.scaleMin;
-
-          var animThis = animate && (absRel <= CFG.animateRange);
-
-          var inner = slide.querySelector(".product-slide-inner") || slide;
-
-          if (!wasVisible) {
-            gsap.set(slide, { x: x, y: y, scale: scale });
-            gsap.set(inner, { rotate: rot });
-          }
-
-          if (animThis) {
-            gsap.to(slide, { x: x, y: y, scale: scale, duration: CFG.duration, ease: CFG.ease, overwrite: true });
-            gsap.to(inner, { rotate: rot, duration: CFG.duration, ease: CFG.ease, overwrite: true });
-          } else {
-            gsap.set(slide, { x: x, y: y, scale: scale });
-            gsap.set(inner, { rotate: rot });
-          }
-
-          gsap.set(slide, { opacity: 1, pointerEvents: "" });
-          slide.style.zIndex = String(100 - absRel);
-
-          if (rel !== 0) hideSlideUI(slide);
-          slide.setAttribute("data-active", rel === 0 ? "true" : "false");
-
-          lastVisibleByIndex[i] = true;
-        });
-
-        var activeSlide = slides[activeIndex];
-
-        if (!animate) {
-          forceActiveUIVisible(activeSlide);
-        } else {
-          if (activeAbs !== lastActiveAbs) {
-            lastActiveAbs = activeAbs;
-            revealActiveUI(activeSlide);
-          } else {
-            forceActiveUIVisible(activeSlide);
-          }
-        }
-      }
-
-      function lockAnimating() {
-        isAnimating = true;
-        clearTimeout(animUnlockTimer);
-        animUnlockTimer = setTimeout(function () {
-          isAnimating = false;
-        }, Math.ceil(CFG.duration * 1000 * 0.85));
-      }
-
-      function goNext() {
-        if (isAnimating) return;
-        lockAnimating();
-        activeAbs = activeAbs + 1;
-        layout(true);
-      }
-
-      function goPrev() {
-        if (isAnimating) return;
-        lockAnimating();
-        activeAbs = activeAbs - 1;
-        layout(true);
-      }
-
-      function onClickNext(e) { e.preventDefault(); goNext(); }
-      function onClickPrev(e) { e.preventDefault(); goPrev(); }
-
-      if (btnNext) btnNext.addEventListener("click", onClickNext);
-      if (btnPrev) btnPrev.addEventListener("click", onClickPrev);
-
-      // ✅ NEW: If the pointer starts on something clickable, don't treat it like a drag.
-      // Add any of your custom “button wrappers” here if needed.
-      var INTERACTIVE_SEL =
-        'a, button, input, textarea, select, label, [role="button"], .w-button, .w-inline-block';
-
-      function isInteractiveTarget(target) {
-        if (!target) return false;
-        return !!(target.closest && target.closest(INTERACTIVE_SEL));
-      }
-
-      var drag = {
-        isDown: false,
-        startX: 0,
-        startY: 0,
-        lastX: 0,
-        accumX: 0,
-        axis: null,
-        // ✅ NEW:
-        startedOnInteractive: false,
-        didCapture: false
-      };
-
-      function onDown(x, y, startedOnInteractive) {
-        drag.isDown = true;
-        drag.startX = x;
-        drag.startY = y;
-        drag.lastX = x;
-        drag.accumX = 0;
-        drag.axis = null;
-
-        drag.startedOnInteractive = !!startedOnInteractive;
-        drag.didCapture = false;
-
-        wheel.style.cursor = drag.startedOnInteractive ? "default" : "grabbing";
-      }
-
-      function maybeCapturePointer(e) {
-        if (drag.didCapture) return;
-        try {
-          wheel.setPointerCapture(e.pointerId);
-          drag.didCapture = true;
-        } catch (_) { }
-      }
-
-      function onMove(x, y, e) {
-        if (!drag.isDown) return;
-
-        // ✅ If the press started on a link/button, never steal it.
-        if (drag.startedOnInteractive) return;
-
-        var dxTotal = x - drag.startX;
-        var dyTotal = y - drag.startY;
-
-        // ✅ Wait for a small threshold before deciding drag axis (prevents killing clicks)
-        if (!drag.axis) {
-          var moved = Math.max(Math.abs(dxTotal), Math.abs(dyTotal));
-          if (moved < CFG.dragStartThresholdPx) return;
-
-          if (Math.abs(dxTotal) > Math.abs(dyTotal) + 6) drag.axis = "x";
-          else if (Math.abs(dyTotal) > Math.abs(dxTotal) + 6) drag.axis = "y";
-          else return;
-
-          // ✅ Only capture once we commit to dragging (and only for X dragging)
-          if (drag.axis === "x") maybeCapturePointer(e);
-        }
-
-        // If vertical gesture, allow normal page scroll
-        if (drag.axis === "y") return;
-
-        // For X dragging, prevent scroll + handle stepping
-        if (e && e.cancelable) e.preventDefault();
-
-        var dx = x - drag.lastX;
-        drag.lastX = x;
-
-        drag.accumX = (drag.accumX + dx) * CFG.dragDamp;
-
-        if (drag.accumX <= -CFG.dragPixelsPerStep) {
-          drag.accumX = 0;
-          goNext();
-        } else if (drag.accumX >= CFG.dragPixelsPerStep) {
-          drag.accumX = 0;
-          goPrev();
-        }
-      }
-
-      function onUp() {
-        drag.isDown = false;
-        drag.axis = null;
-        drag.startedOnInteractive = false;
-        drag.didCapture = false;
-        wheel.style.cursor = "grab";
-      }
-
-      function onPointerDown(e) {
-        if (e.pointerType === "mouse" && e.button !== 0) return;
-
-        // ✅ If clicking a link/button inside the wheel, let it behave normally.
-        var startedOnInteractive = isInteractiveTarget(e.target);
-
-        // IMPORTANT: do NOT capture pointer on down anymore (we only capture after drag starts)
-        onDown(e.clientX, e.clientY, startedOnInteractive);
-      }
-
-      function onPointerMove(e) {
-        if (!drag.isDown) return;
-
-        // If we committed to X drag, prevent scroll
-        if (drag.axis === "x" && e.cancelable) e.preventDefault();
-
-        onMove(e.clientX, e.clientY, e);
-
-        if (drag.axis === "x" && e.cancelable) e.preventDefault();
-      }
-
-      function onPointerUp(e) {
-        // Release capture only if we captured
-        if (drag.didCapture) {
-          try { wheel.releasePointerCapture(e.pointerId); } catch (_) { }
-        }
-        onUp();
-      }
-
-      function onPointerCancel(e) {
-        if (drag.didCapture) {
-          try { wheel.releasePointerCapture(e.pointerId); } catch (_) { }
-        }
-        onUp();
-      }
-
-      wheel.addEventListener("pointerdown", onPointerDown);
-      wheel.addEventListener("pointermove", onPointerMove);
-      wheel.addEventListener("pointerup", onPointerUp);
-      wheel.addEventListener("pointercancel", onPointerCancel);
-
-      var t1 = null;
-      var t2 = null;
-      var refreshLocked = false;
-
-      function refresh(immediate) {
-        if (refreshLocked) return;
-        refreshLocked = true;
-
-        clearTimeout(t1);
-        clearTimeout(t2);
-
-        var run = function () {
-          refreshLocked = false;
-
-          // ✅ If resized down to mobile, destroy + stop.
-          if (window.innerWidth <= MOBILE_BREAKPOINT) {
-            if (window.__SIPLY_WHEEL__ && typeof window.__SIPLY_WHEEL__.destroy === "function") {
-              window.__SIPLY_WHEEL__.destroy();
-            }
-            window.__SIPLY_WHEEL__ = null;
-            return;
-          }
-
-          setStableViewportHeight();
-          lastVisibleByIndex = slides.map(function () { return false; });
-          layout(false);
-        };
-
-        if (immediate) run();
-        else {
-          t1 = setTimeout(function () {
-            run();
-            t2 = setTimeout(run, 60);
-          }, 0);
-        }
-      }
-
-      var resizeTimer = null;
-      function onResize() {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(function () { refresh(false); }, 80);
-      }
-      window.addEventListener("resize", onResize);
-
-      function onPageShow() { refresh(false); }
-      window.addEventListener("pageshow", onPageShow);
-
-      function onVisChange() {
-        if (!document.hidden) refresh(false);
-      }
-      document.addEventListener("visibilitychange", onVisChange);
-
-      if (document.fonts && typeof document.fonts.ready === "object") {
-        document.fonts.ready.then(function () { refresh(false); });
-      }
-
-      slides.forEach(function (slide) {
-        var imgs = slide.querySelectorAll("img");
-        if (!imgs || !imgs.length) return;
-
-        imgs.forEach(function (img) {
-          if (img.decode) {
-            img.decode().then(function () { refresh(false); }).catch(function () { refresh(false); });
-          }
-          if (!img.complete) {
-            img.addEventListener("load", function () { refresh(false); }, { once: true });
-            img.addEventListener("error", function () { refresh(false); }, { once: true });
-          }
-        });
-      });
-
-      var ro = null;
-      if (window.ResizeObserver) {
-        ro = new ResizeObserver(function () { refresh(false); });
-        try { ro.observe(viewport); } catch (_) { }
-        slides.forEach(function (slide) {
-          try {
-            var inner = slide.querySelector(".product-slide-inner") || slide;
-            ro.observe(inner);
-          } catch (_) { }
-        });
-      }
-
-      refresh(true);
-      setTimeout(function () { refresh(false); }, 120);
-      setTimeout(function () { refresh(false); }, 420);
-
-      window.__SIPLY_WHEEL__ = {
-        refresh: refresh,
-        destroy: function () {
-          try { if (ro) ro.disconnect(); } catch (_) { }
-          clearTimeout(animUnlockTimer);
-          clearTimeout(resizeTimer);
-          clearTimeout(t1);
-          clearTimeout(t2);
-
-          try { window.removeEventListener("resize", onResize); } catch (_) { }
-          try { window.removeEventListener("pageshow", onPageShow); } catch (_) { }
-          try { document.removeEventListener("visibilitychange", onVisChange); } catch (_) { }
-
-          try { if (btnNext) btnNext.removeEventListener("click", onClickNext); } catch (_) { }
-          try { if (btnPrev) btnPrev.removeEventListener("click", onClickPrev); } catch (_) { }
-
-          try {
-            wheel.removeEventListener("pointerdown", onPointerDown);
-            wheel.removeEventListener("pointermove", onPointerMove);
-            wheel.removeEventListener("pointerup", onPointerUp);
-            wheel.removeEventListener("pointercancel", onPointerCancel);
-          } catch (_) { }
-        }
-      };
-    });
-  </script>
-
-
-
-
-
-
-
-
-
-  <!-- =========================================================
-  ✅ SCRIPT #2 (SEPARATE): HAND-WITH-BAG PARALLAX ONLY
-  SLOWER + SMOOTHER VERSION
-========================================================= -->
-  <script>
-    window.Webflow = window.Webflow || [];
-    window.Webflow.push(function () {
-      if (!window.gsap || !window.ScrollTrigger) return;
-
-      gsap.registerPlugin(ScrollTrigger);
-
-      var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-      var wrap = document.querySelector(".content-wrapper.hand-with-bag");
-      if (!wrap) return;
-
-      var leftHand = wrap.querySelector(".content-block.hand-with-bag._01");
-      var rightHand = wrap.querySelector(".content-block.hand-with-bag._02");
-      if (!leftHand || !rightHand) return;
-
-      if (reduceMotion) {
-        gsap.set([leftHand, rightHand], { clearProps: "transform" });
-        return;
-      }
-
-      gsap.set(leftHand, {
-        x: "-22vw",
-        y: "10vh",
-        rotateZ: -10,
-        z: -160,
-        force3D: true,
-        willChange: "transform",
-        overwrite: true
-      });
-
-      gsap.set(rightHand, {
-        x: "22vw",
-        y: "10vh",
-        rotateZ: 10,
-        z: -160,
-        force3D: true,
-        willChange: "transform",
-        overwrite: true
-      });
-
-      gsap.timeline({
-        defaults: { ease: "none" }, // ⬅ true parallax smoothness
-        scrollTrigger: {
-          trigger: wrap,
-          start: "top 80%",   // ⬅ starts a bit later
-          end: "top 25%",     // ⬅ MUCH longer scroll distance
-          scrub: 1.6,         // ⬅ slow + buttery interpolation
-          invalidateOnRefresh: true
-          // markers: true
-        }
-      })
-        .to(leftHand, { x: 0, y: 0, rotateZ: 0, z: 0, overwrite: true }, 0)
-        .to(rightHand, { x: 0, y: 0, rotateZ: 0, z: 0, overwrite: true }, 0);
-    });
-  </script>
-
-
-
-  <script>
-    /* =========================================================
-       FEED THE IRON. HERO — FAST FLOATING BEEF BILTONG (NOTICEABLE)
-    ========================================================= */
-
-    window.Webflow = window.Webflow || [];
-    window.Webflow.push(function () {
-      if (!window.gsap) return;
-
-      var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-      var hero = document.querySelector("section.section.red-text");
-      if (!hero) return;
-
-      var stars = hero.querySelector(".review-5-stars");
-      var h1a = hero.querySelector(".h1-heading.home-hero:not(._02)");
-      var h1b = hero.querySelector(".h1-heading.home-hero._02");
-      var cta = hero.querySelector(".button-container-03");
-      var contentWrap = hero.querySelector(".content-wrapper.home-hero");
-
-      var order = ["chip-01", "chip-02", "chip-03", "chip-04"];
-      var chips = order.map(c => hero.querySelector(".image-wrapper." + c)).filter(Boolean);
-
-      if (!contentWrap || !h1a || !h1b || !cta) return;
-
-      /* ===============================
-         3D CONTEXT
-      =============================== */
-      gsap.set(hero, { perspective: 1200, transformStyle: "preserve-3d" });
-      gsap.set(contentWrap, { transformStyle: "preserve-3d" });
-      chips.forEach(el => gsap.set(el, { transformStyle: "preserve-3d" }));
-
-      /* ===============================
-         REDUCED MOTION
-      =============================== */
-      if (reduceMotion) {
-        gsap.set([stars, h1a, h1b, cta, ...chips], { opacity: 1, clearProps: "transform,filter" });
-        return;
-      }
-
-      /* ===============================
-         INITIAL STATES
-      =============================== */
-      const contentItems = [stars, h1a, h1b, cta];
-
-      gsap.set(contentItems, {
-        opacity: 0,
-        y: -140,
-        x: -10,
-        skewY: 10,
-        skewX: -8,
-        rotateZ: -6,
-        rotateX: 18,
-        z: -60,
-        filter: "blur(8px)",
-        force3D: true
-      });
-
-      chips.forEach((el, i) => {
-        const dir = i % 2 === 0 ? -1 : 1;
-        gsap.set(el, {
-          opacity: 0,
-          y: -180,
-          x: 30 * dir,
-          skewY: 12,
-          skewX: -10 * dir,
-          rotateZ: -10 * dir,
-          rotateX: 26,
-          rotateY: 18 * dir,
-          z: -140,
-          scale: 0.9,
-          filter: "blur(10px)",
-          force3D: true
-        });
-      });
-
-      /* ===============================
-         REVEAL TIMELINE
-      =============================== */
-      const tl = gsap.timeline({ delay: 0.08, defaults: { ease: "power3.out" } });
-
-      tl.to(contentItems, {
-        opacity: 1,
-        y: 0,
-        x: 0,
-        skewY: 0,
-        skewX: 0,
-        rotateZ: 0,
-        rotateX: 0,
-        z: 0,
-        filter: "blur(0px)",
-        duration: 0.95,
-        stagger: 0.18,
-        ease: "power4.out"
-      }, 0);
-
-      tl.to(chips, {
-        opacity: 1,
-        y: 0,
-        x: 0,
-        skewY: 0,
-        skewX: 0,
-        rotateZ: 0,
-        rotateX: 0,
-        rotateY: 0,
-        z: 0,
-        scale: 1,
-        filter: "blur(0px)",
-        duration: 1.05,
-        stagger: 0.16,
-        ease: "back.out(1.35)"
-      }, 0.28);
-
-      /* ===============================
-         FAST, NOTICEABLE FLOATING
-      =============================== */
-      function startFloating() {
-        chips.forEach(el => gsap.killTweensOf(el, "y"));
-
-        const floats = [
-          { y: 34, d: 1.6, delay: 0.0 },
-          { y: 40, d: 1.9, delay: 0.15 },
-          { y: 36, d: 1.8, delay: 0.3 },
-          { y: 44, d: 2.2, delay: 0.45 }
-        ];
-
-        chips.forEach((el, i) => {
-          const f = floats[i] || floats[0];
-          gsap.to(el, {
-            y: "+=" + f.y,
-            duration: f.d,
-            ease: "sine.inOut",
-            yoyo: true,
-            repeat: -1,
-            delay: f.delay
-          });
-        });
-      }
-
-      // Start floating AFTER reveal finishes
-      tl.call(startFloating, null, 1.55);
-    });
-  </script>
-
-
-
-
-  <script>
-    window.Webflow = window.Webflow || [];
-    window.Webflow.push(function () {
-      if (!window.gsap || !window.Draggable) return;
-
-      gsap.registerPlugin(Draggable);
-      if (window.InertiaPlugin) gsap.registerPlugin(InertiaPlugin);
-
-      /* ===============================
-         USER CONTROLS
-      =============================== */
-      var END_SPACE_PX = 48;
-
-      var progressTrackSel = ".slider-progress-container";
-      var progressSwitchSel = ".slider-progress-switch";
-
-      // Mobile breakpoint where the bug happens
-      var MOBILE_MAX_PX = 479; // change to 767 if you also want tablet fixed
-
-      /* ===============================
-         INJECT CSS (inside script)
-         - Doesn’t set widths
-         - Makes % widths behave with padding
-      =============================== */
-      function ensureInjectedCSS() {
-        var id = "FEED THE IRON.-slider-02-inline-width-fix";
-        if (document.getElementById(id)) return;
-
-        var style = document.createElement("style");
-        style.id = id;
-        style.textContent =
-          "@media (max-width:" + MOBILE_MAX_PX + "px){" +
-          "  .product-slider-02 .product-slide-02{box-sizing:border-box !important;}" +
-          "}";
-        document.head.appendChild(style);
-      }
-      ensureInjectedCSS();
-
-      function isMobile() {
-        return (window.innerWidth || 0) <= MOBILE_MAX_PX;
-      }
-
-      /* ===============================
-         ELEMENTS
-      =============================== */
-      var root = document.querySelector(".product-slider-02");
-      if (!root) return;
-
-      var mask = root.querySelector(".product-slider-mask");
-      if (!mask) return;
-
-      var initialSlides = gsap.utils.toArray(mask.querySelectorAll(".product-slide-02"));
-      if (!initialSlides.length) return;
-
-      var progressTrack = document.querySelector(progressTrackSel);
-      var progressSwitch = document.querySelector(progressSwitchSel);
-
-      /* ===============================
-         BUILD REAL TRACK
-      =============================== */
-      var track = mask.querySelector(".gsap-track-02");
-      if (!track) {
-        track = document.createElement("div");
-        track.className = "gsap-track-02";
-        mask.appendChild(track);
-        initialSlides.forEach(function (s) { track.appendChild(s); });
-      }
-
-      var slides = gsap.utils.toArray(track.querySelectorAll(".product-slide-02"));
-      if (!slides.length) return;
-
-      /* ===============================
-         END SPACER
-      =============================== */
-      var endSpacer = track.querySelector(".gsap-end-spacer");
-      if (!endSpacer) {
-        endSpacer = document.createElement("div");
-        endSpacer.className = "gsap-end-spacer";
-        track.appendChild(endSpacer);
-      }
-
-      /* ===============================
-         BASE STYLES (do not touch widths)
-      =============================== */
-      gsap.set(mask, { overflow: "hidden", position: "relative", touchAction: "pan-y" });
-
-      gsap.set(track, {
-        display: "flex",
-        flexWrap: "nowrap",
-        willChange: "transform",
-        transform: "translate3d(0,0,0)",
-        touchAction: "pan-y"
-      });
-
-      gsap.set(slides, { flex: "0 0 auto" });
-      gsap.set(endSpacer, { flex: "0 0 auto", width: END_SPACE_PX });
-
-      if (progressTrack && progressSwitch) {
-        gsap.set(progressTrack, { position: "relative" });
-        gsap.set(progressSwitch, {
-          position: "absolute",
-          left: 0,
-          top: "50%",
-          x: 0,
-          yPercent: -50,
-          willChange: "transform",
-          transform: "translate3d(0,0,0)",
-          touchAction: "none",
-          cursor: "grab"
-        });
-      }
-
-      /* ===============================
-         MOBILE ONLY: REMOVE INLINE WIDTHS
-         - This is the key fix for “width: 395px” overriding your 93%
-         - We only remove INLINE styles so Webflow CSS controls layout
-      =============================== */
-      function stripInlineWidthsIfMobile() {
-        if (!isMobile()) return;
-
-        slides.forEach(function (s) {
-          // If anything set width/min/max inline, kill it.
-          s.style.removeProperty("width");
-          s.style.removeProperty("min-width");
-          s.style.removeProperty("max-width");
-
-          // Also kill any inline flex-basis that could lock a pixel width
-          s.style.removeProperty("flex-basis");
-        });
-
-        // Force a reflow so measurements use the corrected widths
-        track.getBoundingClientRect();
-      }
-
-      /* ===============================
-         STATE
-      =============================== */
-      var state = { minX: 0, maxX: 0, snap: [], progressMax: 0 };
-
-      function clamp(min, v, max) {
-        return Math.max(min, Math.min(v, max));
-      }
-
-      function measure() {
-        gsap.killTweensOf(track);
-        ensureInjectedCSS();
-        stripInlineWidthsIfMobile();
-
-        var viewportW = mask.getBoundingClientRect().width;
-        var trackW = track.scrollWidth;
-
-        state.maxX = 0;
-        state.minX = Math.min(0, viewportW - trackW);
-
-        state.snap = slides.map(function (s) {
-          return clamp(state.minX, -s.offsetLeft, state.maxX);
-        });
-
-        if (progressTrack && progressSwitch) {
-          var tr = progressTrack.getBoundingClientRect();
-          var sw = progressSwitch.getBoundingClientRect();
-          state.progressMax = Math.max(0, tr.width - sw.width);
-        } else {
-          state.progressMax = 0;
-        }
-
-        var currentX = gsap.getProperty(track, "x");
-        if (typeof currentX !== "number") currentX = 0;
-        gsap.set(track, { x: clamp(state.minX, currentX, state.maxX) });
-      }
-
-      function closestSnap(x) {
-        var best = state.snap[0] || 0;
-        var dist = Infinity;
-        for (var i = 0; i < state.snap.length; i++) {
-          var s = state.snap[i];
-          var d = Math.abs(x - s);
-          if (d < dist) { dist = d; best = s; }
-        }
-        return best;
-      }
-
-      function getT(x) {
-        var denom = state.minX - state.maxX;
-        return denom ? (x - state.maxX) / denom : 0;
-      }
-
-      function trackXFromT(t) {
-        return state.maxX + clamp(0, t, 1) * (state.minX - state.maxX);
-      }
-
-      function syncSwitch() {
-        if (!progressTrack || !progressSwitch) return;
-        var x = gsap.getProperty(track, "x");
-        if (typeof x !== "number") x = 0;
-        gsap.set(progressSwitch, { x: clamp(0, getT(x), 1) * state.progressMax });
-      }
-
-      function tweenTo(x) {
-        gsap.to(track, {
-          x: x,
-          duration: 0.7,
-          ease: "power3.out",
-          onUpdate: syncSwitch,
-          onComplete: syncSwitch
-        });
-      }
-
-      /* ===============================
-         DRAGGABLE — TRACK
-      =============================== */
-      var trackDrag = Draggable.create(track, {
-        type: "x",
-        bounds: function () { return { minX: state.minX, maxX: state.maxX }; },
-        inertia: !!window.InertiaPlugin,
-        edgeResistance: 0.9,
-        dragClickables: true,
-        zIndexBoost: false,
-        snap: function (x) { return closestSnap(x); },
-        onPress: function () { gsap.killTweensOf(track); },
-        onDrag: syncSwitch,
-        onThrowUpdate: syncSwitch,
-        onThrowComplete: syncSwitch
-      })[0];
-
-      /* ===============================
-         DRAGGABLE — PROGRESS SWITCH
-      =============================== */
-      var switchDrag = null;
-
-      if (progressTrack && progressSwitch) {
-        switchDrag = Draggable.create(progressSwitch, {
-          type: "x",
-          bounds: function () { return { minX: 0, maxX: state.progressMax }; },
-          inertia: false,
-          zIndexBoost: false,
-          onPress: function () {
-            gsap.killTweensOf(track);
-            progressSwitch.style.cursor = "grabbing";
-          },
-          onDrag: function () {
-            if (!state.progressMax) return;
-            var t = clamp(0, this.x / state.progressMax, 1);
-            gsap.set(track, { x: trackXFromT(t) });
-          },
-          onRelease: function () {
-            progressSwitch.style.cursor = "grab";
-            tweenTo(closestSnap(gsap.getProperty(track, "x")));
-          }
-        })[0];
-
-        progressTrack.addEventListener("pointerdown", function (e) {
-          if (e.target === progressSwitch || progressSwitch.contains(e.target)) return;
-
-          var rect = progressTrack.getBoundingClientRect();
-          var clickX = e.clientX - rect.left;
-
-          var sw = progressSwitch.getBoundingClientRect().width || 0;
-          var usable = Math.max(0, rect.width - sw);
-
-          var t = usable ? clamp(0, (clickX - sw * 0.5) / usable, 1) : 0;
-          tweenTo(closestSnap(trackXFromT(t)));
-        });
-      }
-
-      /* ===============================
-         INIT + RESIZE
-      =============================== */
-      function refresh() {
-        measure();
-
-        // IMPORTANT: after stripping inline widths on mobile, start from the beginning
-        if (isMobile()) gsap.set(track, { x: 0 });
-
-        trackDrag.applyBounds({ minX: state.minX, maxX: state.maxX });
-        trackDrag.update(true);
-
-        if (switchDrag) {
-          switchDrag.applyBounds({ minX: 0, maxX: state.progressMax });
-          switchDrag.update(true);
-        }
-
-        syncSwitch();
-      }
-
-      refresh();
-
-      var rt;
-      window.addEventListener("resize", function () {
-        clearTimeout(rt);
-        rt = setTimeout(refresh, 140);
-      });
-
-      window.addEventListener("load", refresh);
-      setTimeout(refresh, 250);
-      setTimeout(refresh, 800);
-    });
-  </script>
-
-
-
-  <script>
-    window.Webflow = window.Webflow || [];
-    window.Webflow.push(function () {
-      var wheel = document.querySelector(".product-wheel");
-      if (!wheel) return;
-
-      wheel.style.webkitTapHighlightColor = "transparent";
-      wheel.style.userSelect = "none";
-      wheel.style.webkitUserSelect = "none";
-
-      var imgs = wheel.querySelectorAll("img");
-      imgs.forEach(function (img) {
-        img.setAttribute("draggable", "false");
-        img.style.userSelect = "none";
-        img.style.webkitUserSelect = "none";
-        img.style.pointerEvents = "none";
-      });
-
-      wheel.addEventListener("dragstart", function (e) { e.preventDefault(); }, true);
-      wheel.addEventListener("selectstart", function (e) { e.preventDefault(); }, true);
     });
   </script>
 </body>
