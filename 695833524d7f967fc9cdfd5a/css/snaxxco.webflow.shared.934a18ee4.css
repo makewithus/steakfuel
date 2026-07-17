@@ -1,4 +1,4 @@
-﻿html {
+html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-family: sans-serif;
@@ -188,27 +188,27 @@ td, th {
 }
 
 .w-icon-slider-right:before {
-  content: "";
+  content: "?";
 }
 
 .w-icon-slider-left:before {
-  content: "";
+  content: "?";
 }
 
 .w-icon-nav-menu:before {
-  content: "";
+  content: "?";
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-  content: "";
+  content: "?";
 }
 
 .w-icon-file-upload-remove:before {
-  content: "";
+  content: "?";
 }
 
 .w-icon-file-upload-icon:before {
-  content: "";
+  content: "?";
 }
 
 * {
@@ -4137,15 +4137,15 @@ figcaption {
 }
 
 .image-wrapper.diamond-star-01 {
-  width: 3rem;
-  min-width: 3rem;
+  width: 5rem;
+  min-width: 5rem;
   position: absolute;
   inset: 5% auto auto 10%;
 }
 
 .image-wrapper.diamond-star-02 {
-  width: 3rem;
-  min-width: 3rem;
+  width: 5rem;
+  min-width: 5rem;
   position: absolute;
   inset: auto 5% 17% auto;
 }
