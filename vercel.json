@@ -1,6 +1,7 @@
 {
   "rewrites": [
     { "source": "/", "destination": "/pages/index.html" },
+    { "source": "/launch-list", "destination": "/pages/launch-list.html" },
     { "source": "/:page.html", "destination": "/pages/:page.html" },
     { "source": "/admin/:page.html", "destination": "/pages/admin/:page.html" },
     { "source": "/blog-article/:page.html", "destination": "/pages/blog-article/:page.html" },
