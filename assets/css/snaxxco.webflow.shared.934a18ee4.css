@@ -11186,10 +11186,7 @@ body,
   color: #FFFFFF !important;
 }
 
-/* HIDE DOTTED BG ON HOME PAGE */
-.hero-background-image-wrapper {
-  background-image: none !important;
-}
+
 
 /* FIX FOR ORDER NOW LINK COLOR */
 .product-slide-button-container {
