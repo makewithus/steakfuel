@@ -11188,7 +11188,6 @@ body,
 
 /* 2. EXTERNAL GRAPHICS COLOR SHIFT TO DEEP RED */
 /* This safely shifts the CDN SVGs and Lottie files to match #B21B19 */
-.wave-lottie-animation,
 .heading-image-wrapper.lineup img,
 .heading-image-wrapper img {
   filter: brightness(0.75) contrast(1.1) !important;
