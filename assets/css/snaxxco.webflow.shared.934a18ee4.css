@@ -11162,3 +11162,13 @@ figcaption {
   --light-grey: #E6E6E6 !important;
   --dark-grey: #535353 !important;
 }
+
+/* ========================================= */
+/*       PREMIUM COLOR THEME OVERRIDES       */
+/* ========================================= */
+
+:root {
+  --red: #B21B19 !important;
+  --black: #111111 !important;
+  --white: #FFFFFF !important;
+}
