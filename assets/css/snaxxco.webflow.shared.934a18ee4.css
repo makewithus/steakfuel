@@ -11186,16 +11186,6 @@ body,
   color: #FFFFFF !important;
 }
 
-/* FIX FOR SECTION DARKER RED (must stay red to show wave) */
-.section.darker-red {
-  background-color: var(--red) !important;
-}
-
-/* FIX FOR FOOTER (make it black) */
-.container.footer-main {
-  background-color: var(--black) !important;
-}
-
 /* HIDE DOTTED BG ON HOME PAGE */
 .hero-background-image-wrapper {
   background-image: none !important;
@@ -11209,4 +11199,5 @@ body,
 /* FIX FOR WAVE FOOTER BACKGROUND */
 .wave-lottie-animation.below.footer {
   background-color: transparent !important;
+  transform: rotateX(-180deg) !important;
 }
