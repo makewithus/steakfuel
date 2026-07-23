@@ -11195,3 +11195,8 @@ body,
 }
 
 
+
+/* FIX FOR ORDER NOW LINK COLOR */
+.product-slide-button-container {
+  color: #FFFFFF !important;
+}
