@@ -11186,14 +11186,20 @@ body,
   color: #FFFFFF !important;
 }
 
-/* 2. EXTERNAL GRAPHICS COLOR SHIFT TO DEEP RED */
-/* This safely shifts the CDN SVGs and Lottie files to match #B21B19 */
-.heading-image-wrapper.lineup img,
-.heading-image-wrapper img {
-  filter: brightness(0.75) contrast(1.1) !important;
+/* FIX FOR SECTION DARKER RED (must stay red to show wave) */
+.section.darker-red {
+  background-color: var(--red) !important;
 }
 
+/* FIX FOR FOOTER (make it black) */
+.container.footer-main {
+  background-color: var(--black) !important;
+}
 
+/* HIDE DOTTED BG ON HOME PAGE */
+.hero-background-image-wrapper {
+  background-image: none !important;
+}
 
 /* FIX FOR ORDER NOW LINK COLOR */
 .product-slide-button-container {
