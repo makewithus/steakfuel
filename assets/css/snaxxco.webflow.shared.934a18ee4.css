@@ -2076,7 +2076,7 @@ textarea.w-input, textarea.w-select {
   --orange\<deleted\|variable-0a6ccac1-d57b-d47e-4924-4a7c38d006c1\>: #b21b19;
   --orange: #b21b19;
   --yellow\<deleted\|variable-f39ca59a-0aab-a484-a612-cc87c841732c\>: #b21b19;
-  --silver: #b21b19;
+  --silver: #1a1a1a;
   --h2-heading-two-column: 4rem;
   --lime\<deleted\|variable-513d189e-17e9-1940-8e56-d20dfe85c229\>: #b21b19;
   --_typography---h3-tab-link-text-size: 3rem;
@@ -11199,4 +11199,9 @@ body,
 /* FIX FOR ORDER NOW LINK COLOR */
 .product-slide-button-container {
   color: #FFFFFF !important;
+}
+
+/* FIX FOR WAVE FOOTER BACKGROUND */
+.wave-lottie-animation.below.footer {
+  background-color: transparent !important;
 }
