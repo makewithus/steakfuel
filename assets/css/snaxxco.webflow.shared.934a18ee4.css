@@ -11194,14 +11194,4 @@ body,
   filter: brightness(0.75) contrast(1.1) !important;
 }
 
-/* 3. ENSURE BUTTON LEGIBILITY ON DEEP RED */
-.button, 
-.button.utility, 
-.blob-button, 
-.button-container-03, 
-.button-holder, 
-.button-contain,
-.button-text-01,
-.blob-button-text {
-  color: #FFFFFF !important;
-}
+
