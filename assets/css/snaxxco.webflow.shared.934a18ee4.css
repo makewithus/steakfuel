@@ -11193,6 +11193,11 @@ body,
   color: #FFFFFF !important;
 }
 
+/* FIX FOR SECTION DARKER RED (must stay black to hide line above wave) */
+.section.darker-red {
+  background-color: var(--black) !important;
+}
+
 /* FIX FOR WAVE FOOTER BACKGROUND */
 .wave-lottie-animation.below.footer {
   background-color: transparent !important;
