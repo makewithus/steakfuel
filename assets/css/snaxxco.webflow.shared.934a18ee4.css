@@ -11197,9 +11197,3 @@ body,
 .section.darker-red {
   background-color: var(--black) !important;
 }
-
-/* FIX FOR WAVE FOOTER BACKGROUND */
-.wave-lottie-animation.below.footer {
-  background-color: transparent !important;
-  transform: rotateX(-180deg) !important;
-}
